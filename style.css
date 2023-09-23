@@ -1,0 +1,124 @@
+/*枠組み*/
+div.main {
+    margin:auto;
+    width:990px;
+    border:2px solid #8C8C8C;
+    background-color: #fffff0;
+    margin:auto;
+    }
+    
+div.top_area {
+    padding-bottom: 1em;
+    border-bottom:1px dashed #8C8C8C;
+    }
+    
+div.left_area {
+    width: 400px;
+    float: left;
+    padding: 20px;
+    }
+    
+div.right_area {
+    border-left: 1px dotted #8C8C8C;
+    width: 500px;
+    float: left;
+    padding: 20px;
+    }
+    
+div.center_area {
+    border-bottom: 1px dotted #8C8C8C;
+    padding:10px;
+    }
+    
+div.bottom_area {
+    width:990px;
+    border-top:1px dashed #8C8C8C;
+    clear:both;
+    }
+    
+    
+/*書式*/
+h1 {
+    font-size: 1.7em;
+    line-height: 2em;
+    margin-top: 25px;
+    text-align:center;
+    border-top:5px solid #e6e6fa;
+    border-bottom:5px solid #e6e6fa;
+    }
+    
+h2 {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 15px 10px;
+    border-left:10px solid #e6e6fa;
+    border-bottom:2px solid #e6e6fa;
+    padding-left:1em;
+    }
+    
+    
+/*目次*/
+.nav {
+    display: flex;
+    height: 2em;
+    margin: auto;
+    padding: 0px;
+    }
+    
+.nav > li {
+    width: 25%;
+    }
+    
+.nav li {
+    padding: 0px;
+    border: 1px solid #FFFFFF;
+    list-style: none;
+    position: relative;
+    padding: 0px;
+    }
+    
+.nav li a {
+    background: #001B34;
+    color: #FFFFFF;
+    display: block;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid #FFFFFF;
+    width: 100%;
+    }
+    
+.nav ul {
+    margin: 0px;
+    padding: 0px;
+    
+    }
+    
+.nav li li {
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+    padding: 0px;
+    width: 100%;
+    list-style: none;
+    }
+    
+.nav li li a {
+    border-top: 1px solid #FFFFFF;
+    }
+    
+.nav li:hover > ul > li {
+    height: 2em;
+    overflow: visible;
+    padding: 0px;
+    }
+    
+.nav li ul li ul {
+        left: 100%;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    
+    
