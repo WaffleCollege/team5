@@ -50,5 +50,10 @@ section {
     background-image: none;
     background-size: cover;
     background-repeat: no-repeat;
+    /* 初めは画面外に隠す */
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
 }
+
 
