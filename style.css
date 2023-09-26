@@ -2,40 +2,39 @@
 div.main {
     margin:auto;
     width:990px;
-    border:2px solid #8C8C8C;
-    background-color: #EDE7E3;
+    border:2px solid #9F7756;
+    background-color: #fffff0;
     margin:auto;
     }
     
-div.top_area {
+    div.top_area {
     padding-bottom: 1em;
-    border-bottom:1px dashed #8C8C8C;
+    border-bottom:1px dashed #9F7756;
     }
     
-div.left_area {
-    width: 400px;
+    div.left_area {
+    width: 450px;
     float: left;
     padding: 20px;
     }
     
-div.right_area {
-    border-left: 1px dotted #8C8C8C;
-    width: 500px;
+    div.right_area {
+    border-left: 1px dotted #9F7756;
+    width: 450px;
     float: left;
     padding: 20px;
     }
     
-div.center_area {
-    border-bottom: 1px dotted #8C8C8C;
+    div.center_area {
+    border-bottom: 1px dotted #9F7756;
     padding:10px;
     }
     
-div.bottom_area {
+    div.bottom_area {
     width:990px;
-    border-top:1px dashed #8C8C8C;
+    border-top:1px dashed #9F7756;
     clear:both;
     }
-    
     
 /*書式*/
 h1 {
@@ -43,20 +42,19 @@ h1 {
     line-height: 2em;
     margin-top: 25px;
     text-align:center;
-    border-top:5px solid #e6e6fa;
-    border-bottom:5px solid #e6e6fa;
+    /*border-top:5px solid #e6e6fa;*/
+    border-bottom:5px solid #9F7756;
     }
     
-h2 {
+    h2 {
     font-size: 1.2em;
     line-height: 1.5em;
     margin: 15px 10px;
-    border-left:10px solid #e6e6fa;
-    border-bottom:2px solid #e6e6fa;
+    /*border-left:10px solid #e6e6fa;*/
+    border-bottom:2px solid #9F7756;
     padding-left:1em;
     }
-    
-    
+
 /*目次*/
 .nav {
     display: flex;
@@ -65,11 +63,11 @@ h2 {
     padding: 0px;
     }
     
-.nav > li {
+    .nav > li {
     width: 25%;
     }
     
-.nav li {
+    .nav li {
     padding: 0px;
     border: 1px solid #FFFFFF;
     list-style: none;
@@ -77,8 +75,8 @@ h2 {
     padding: 0px;
     }
     
-.nav li a {
-    background: #001B34;
+    .nav li a {
+    background: #9F7756;
     color: #FFFFFF;
     display: block;
     height: 2em;
@@ -89,13 +87,13 @@ h2 {
     width: 100%;
     }
     
-.nav ul {
+    .nav ul {
     margin: 0px;
     padding: 0px;
     
     }
     
-.nav li li {
+    .nav li li {
     height: 0px;
     overflow: hidden;
     transition: .5s;
@@ -104,21 +102,97 @@ h2 {
     list-style: none;
     }
     
-.nav li li a {
+    .nav li li a {
     border-top: 1px solid #FFFFFF;
     }
     
-.nav li:hover > ul > li {
+    .nav li:hover > ul > li {
     height: 2em;
     overflow: visible;
     padding: 0px;
     }
     
-.nav li ul li ul {
+    .nav li ul li ul {
         left: 100%;
         position: absolute;
         top: 0;
         width: 100%;
     }
+
+/*スライドショー*/
+.slide {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    }
     
+    .slideitem {
+    opacity: 0;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    position: absolute;
+    left: 5%;
+    top: auto;
+    -webkit-animation: anime 50s 0s infinite;
+    animation: anime 50s 0s infinite;
+    }
     
+    .slideitem:nth-of-type(2) {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    }
+    
+    .slideitem:nth-of-type(3) {
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+    }
+    
+    .slideitem:nth-of-type(4) {
+    -webkit-animation-delay: 15s;
+    animation-delay: 15s;
+    }
+    
+    .slideitem:nth-of-type(5) {
+    -webkit-animation-delay: 20s;
+    animation-delay: 20s;
+    }
+    
+    .slideitem:nth-of-type(6) {
+    -webkit-animation-delay: 25s;
+    animation-delay: 25s;
+    }
+    
+    .slideitem:nth-of-type(7) {
+    -webkit-animation-delay: 30s;
+    animation-delay: 30s;
+    }
+    
+    .slideitem:nth-of-type(8) {
+    -webkit-animation-delay: 35s;
+    animation-delay: 35s;
+    }
+    
+    .slideitem:nth-of-type(9) {
+    -webkit-animation-delay: 40s;
+    animation-delay: 40s;
+    }
+    
+    .slideitem:nth-of-type(10) {
+    -webkit-animation-delay: 45s;
+    animation-delay: 45s;
+    }
+    
+    @keyframes anime {
+    0% {opacity:0}
+    5% {opacity:1}
+    10% {opacity:1}
+    20% {opacity:0}
+    }
+    
+    @-webkit-keyframes anime {
+    0% {opacity:0}
+    5% {opacity:1}
+    10% {opacity:1}
+    20% {opacity:0}
+    }
