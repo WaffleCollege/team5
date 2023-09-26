@@ -1,8 +1,8 @@
 /*枠組み*/
 div.main {
-    /*margin:auto;
+    margin:auto;
     width:990px;
-    border:2px solid #9F7756;*/
+    /*border:2px solid #9F7756;*/
     background-color: #fffff0;
     margin:auto;
     }
@@ -13,14 +13,14 @@ div.main {
     }
     
     div.left_area {
-    /*width: 450px;*/
+    width: 450px;
     float: left;
     padding: 20px;
     }
     
     div.right_area {
     border-left: 1px dotted #9F7756;
-    /*width: 450px;*/
+    width: 450px;
     float: left;
     padding: 20px;
     }
