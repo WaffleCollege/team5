@@ -52,3 +52,11 @@ slide_time();
 // 関数を呼び出す
 setInterval(slide_time, 3000);
 
+
+
+
+
+
+
+
+
