@@ -1,0 +1,60 @@
+/* ページスタイルを定義 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ede7e3;
+    color: #9f7756;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+/* リンクスタイルを定義 */
+a {
+    text-decoration: none;
+    color: #d3bfaa;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 初めは非表示 */
+section {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* 初めは画面外に隠す */
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+
+
