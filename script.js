@@ -26,31 +26,24 @@ function scroll_event() {
 
 
 //スライドショー
-const newImgList = [
-    "PJweek.jpg",
-    "PJweek2.jpg",
-    "PJweek3.jpg",
-];
 
-let previousNum = -1; // 前回のランダム選択を記録する変数
+  // スライドショーに表示する画像のURLリスト
+var imageList = ["PJweek.jpg", "PJweek2.jpg", "PJweek3.jpg"];
+var currentImageIndex = 0; // 現在の画像のインデックス
 
-function slide_time() {
-    let num;
-    do {
-        num = Math.floor(Math.random() * newImgList.length);
-    } while (num === previousNum); // 前回と同じ画像を選ばないようにする
+// 画像要素を取得
+var slideshowImage = document.getElementById("slide-show");
 
-    previousNum = num; // 現在の選択を前回の選択として記録
-
-    const slideImg = document.getElementById("slide-show");
-    slideImg.setAttribute("src", newImgList[num]);
+// 次の画像を表示する関数
+function showNextImage() {
+  currentImageIndex = (currentImageIndex + 1) % imageList.length;
+  var imageUrl = imageList[currentImageIndex];
+  slideshowImage.src = imageUrl;
 }
 
-// 初回の呼び出し
-slide_time();
+// 5秒ごとに次の画像を表示
+setInterval(showNextImage, 3000); // 5000ミリ秒（5秒）ごとに実行
 
-// 関数を呼び出す
-setInterval(slide_time, 3000);
 
 
 
