@@ -57,4 +57,3 @@ document.addEventListener("DOMContentLoaded", function () {
         sections[3].style.opacity = 1;
     }, 1500); // 1.5秒後に4番目の項目をスライドイン
 });
-
