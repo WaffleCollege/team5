@@ -11,7 +11,7 @@ document.querySelectorAll('h2 a').forEach(anchor => {
             "tsutsumi": "switzerland-flag.png",
             "mana": "switzerland-flag.png",
             "kinari": "french-flag.png",
-            "aya":,
+            "aya":"iceland.png",
             // 他の行先に対する背景画像も追加
         };
 
