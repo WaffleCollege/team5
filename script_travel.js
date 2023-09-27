@@ -11,6 +11,7 @@ document.querySelectorAll('h2 a').forEach(anchor => {
             "tsutsumi": "switzerland-flag.png",
             "mana": "switzerland-flag.png",
             "kinari": "french-flag.png",
+            "aya":,
             // 他の行先に対する背景画像も追加
         };
 
@@ -35,25 +36,31 @@ document.querySelectorAll('h2 a').forEach(anchor => {
 document.addEventListener("DOMContentLoaded", function () {
     const sections = document.querySelectorAll('section');
 
-    // 一番上の項目を右からスライドイン
+    // 1番上の項目
     sections[0].style.transform = 'translateX(0)';
     sections[0].style.opacity = 1;
 
-    // 2番目の項目を左からスライドイン
+    // 2番目の項目
     setTimeout(() => {
         sections[1].style.transform = 'translateX(0)';
         sections[1].style.opacity = 1;
     }, 500); // 0.5秒後に2番目の項目をスライドイン
 
-    // 三番目の項目を右からスライドイン
+    // 3番目の項目
     setTimeout(() => {
         sections[2].style.transform = 'translateX(0)';
         sections[2].style.opacity = 1;
     }, 1000); // 1秒後に3番目の項目をスライドイン
 
-    // 4番目の項目を左からスライドイン
+    // 4番目の項目
     setTimeout(() => {
         sections[3].style.transform = 'translateX(0)';
         sections[3].style.opacity = 1;
     }, 1500); // 1.5秒後に4番目の項目をスライドイン
+
+     // 5番目の項目
+    setTimeout(() => {
+        sections[3].style.transform = 'translateX(0)';
+        sections[3].style.opacity = 1;
+    }, 2000); // 2.0秒後に4番目の項目をスライドイン
 });
