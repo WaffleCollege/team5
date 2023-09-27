@@ -36,24 +36,30 @@ html{
 
 
 .site1:hover{   
-    font-size:12px;
     font-weight:bolder;
+    font-size:14px;
+    color:#9F7756;
+    font-weight:900;
 }
 .site2:hover{
-    font-size:12px;
+    font-size:14px;
     font-weight: bolder;
+    color:#9F7756;
 }
 .site3:hover{
-    font-size:12px;
+    font-size:14px;
     font-weight: bolder;
+    color:#9F7756;
 }
 .site4:hover{
-    font-size:12px;
+    font-size:14px;
     font-weight: bolder;
+    color:#9F7756;
 }
 .site5:hover{
-    font-size:15px;
+    font-size:14px;
     font-weight: bolder;
+    color:#9F7756;
 }
 
 
@@ -108,28 +114,36 @@ li{  list-style:none;
 
 a.Yoshino{text-decoration:none;
     color:#ede7e3;  
-    padding:30px 20px 30px 130px;
     font-weight: 550;
+    padding-left:100px;
 }
 
 a.Tsutsumi{text-decoration:none;
     color:#ede7e3;  
-    padding:30px 20px 30px 130px;
     font-weight: 550;
+    padding-left:120px;
 }
 
 a.Mana{text-decoration:none;
     color:#ede7e3;  
-    padding:30px 20px 30px 130px;
     font-weight: 550;
+    padding-left:120px;
 }
 
 a.Kinari{
     text-decoration:none;
     color:#ede7e3;  
-    padding:30px 20px 30px 130px;
     font-weight: 550;
+    padding-left:120px;
 }
+
+a.Aya{
+    text-decoration:none;
+    color:#ede7e3;  
+    font-weight: 550;
+    padding-left:120px;
+}
+
 
 a.Yoshino:hover{
     color:#2b3412;
@@ -154,6 +168,11 @@ a.Kinari:hover{
     font-weight:900;
 }
 
+
+a.Aya:hover{
+    color:#2b3412;
+    font-weight:900;
+}
 
 
 .main-text{
@@ -246,7 +265,7 @@ p{
 
 
 .slideitem {
-    opacity: 0; /* 最初から画像を表示 */
+    opacity: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
