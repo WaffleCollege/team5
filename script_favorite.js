@@ -25,25 +25,6 @@ function scroll_event() {
 }
 
 
-//スライドショー
-
-  // スライドショーに表示する画像のURLリスト
-var imageList = ["PJweek.jpg", "PJweek2.jpg", "PJweek3.jpg"];
-var currentImageIndex = 0; // 現在の画像のインデックス
-
-// 画像要素を取得
-var slideshowImage = document.getElementById("slide-show");
-
-// 次の画像を表示する関数
-function showNextImage() {
-  currentImageIndex = (currentImageIndex + 1) % imageList.length;
-  var imageUrl = imageList[currentImageIndex];
-  slideshowImage.src = imageUrl;
-}
-
-// 5秒ごとに次の画像を表示
-setInterval(showNextImage, 3000); // 5000ミリ秒（5秒）ごとに実行
-
 
 
 
