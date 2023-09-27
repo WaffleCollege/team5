@@ -1,0 +1,422 @@
+body {
+    background-color:#EDE7E3;
+    font-family: serif;
+  }
+  
+  h2 {
+    text-align:center;
+  }
+  
+  /* ヘッダー*/
+  header {
+    padding: 16px 24px;
+  }
+  
+  
+  .header-logo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .header-list {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 24px;
+    list-style:none;
+  }
+  
+  .header-list a{
+    text-decoration: none;/*下線消す*/
+    background:#d3bfaa ;/*背景を水色に*/
+    color:white;/*文字を白に*/
+    padding:5px 10px;/*内側の余白*/
+    border-radius: 20px;/*角を丸くする*/
+  }
+  
+  .hr1 {
+    border-top: 4px solid #9F7756;
+  }
+  
+  .hr2 {
+    border-top:2px solid #9F7756
+  }
+  
+  /* タイトル*/
+  
+  .title h1 {
+    position:relative;
+    padding: 0.25em 1em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    width:450px;
+    margin-top:100px;
+    margin-left:450px;
+    text-align:center;
+  }
+  .title h1:before, .title h1:after {
+    content: '';
+    position: absolute;
+    top: -7px;
+    width: 2px;
+    height: -webkit-calc(100% + 14px);
+    height: calc(100% + 14px);
+    background-color: black;
+   
+  }
+  .title h1:before {
+    left: 7px;
+  }
+  .title h1:after {
+    right: 7px;
+  }
+  
+
+  .title h2 {
+    margin-bottom:50px;
+  
+
+  }
+  
+  
+  h2 {
+    text-align:center;
+  }
+  
+  
+  
+  
+  /*よっしー*/
+  .name1 {
+    display:none;
+  }
+  
+  .img1 {
+    display:none;
+  }
+  
+  .te1 {
+    display:none;
+  }
+  
+  #img1 img{
+    width:500px;
+    margin-right:80px;
+  }
+  
+   button {
+   cursor: pointer;
+  }
+  
+  /* ボタンにカーソルを当てたとき、ボタンを半透明にする */
+  button:hover {
+   opacity: 0.7;
+  }
+  
+  
+  
+  #name1{
+    margin: 16px 0;
+    font-size: 30px;
+    color: #2b3412;
+  }
+  
+  .Yoshi {
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:rgba(148, 161, 133,0.4);
+    margin-bottom:100px;
+    
+  }
+  
+  
+  
+  
+  
+  .content1 {
+    display:flex;
+  }
+  
+  
+  
+  
+  
+  .text1 {
+    padding-left:25px;
+    padding-right:20px;
+  }
+  
+  .text1 p {
+    line-height:50px;
+  }
+  
+  .text1 h3 {
+    padding-left:250px;
+  }
+  
+  /*つつみ*/
+  .name2 {
+    display:none;
+  }
+  
+  .img2 {
+    display:none;
+  }
+  
+  #img2 img {
+    width:500px;
+    margin-left:80px;
+  }
+  
+  .te2 {
+    display:none;
+  }
+  
+   cursor: pointer;
+  }
+  
+  /* ボタンにカーソルを当てたとき、ボタンを半透明にする */
+  button:hover {
+   opacity: 0.7;
+  }
+  
+  
+  
+  #name2{
+    margin: 16px 0;
+    font-size: 30px;
+    color: #2b3412;
+  }
+  
+  
+  
+  .tsutsu {
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:rgba(218, 232, 202,0.4);
+     margin-bottom:100px;
+  }
+  
+  .content2 {
+    display:flex;
+  }
+  
+  .content2 .img2 img{
+    width:500px;
+    margin-left:60px;
+    
+  }
+  
+  .text2 h3 {
+    padding-left:300px;
+  }
+  
+  .text2 p {
+    line-height:50px;
+    padding-right:25px;
+    padding-left:30px;
+  }
+  
+  
+  
+  
+  /*まな*/
+  .name3 {
+    display:none;
+  }
+  
+  .img3 {
+    display:none;
+  }
+  
+  #img3 img {
+    width:500px;
+    margin-left:80px;
+  }
+  
+  .te3 {
+    display:none;
+  }
+  
+   cursor: pointer;
+  }
+  
+  /* ボタンにカーソルを当てたとき、ボタンを半透明にする */
+  button:hover {
+   opacity: 0.7;
+  }
+  
+  
+  
+  #name3{
+    margin: 16px 0;
+    font-size: 30px;
+    color: #2b3412;
+  }
+  
+  
+  .mana {
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:rgba(148, 161, 133,0.4);
+     margin-bottom:100px;
+  }
+  
+  .content3 {
+    display:flex;
+  }
+  
+  .content3 .img3 img{
+    width:500px;
+    margin-right:80px;
+  }
+  
+  
+  
+  .text3 {
+    padding-left:25px;
+    padding-right:20px;
+  }
+  
+  .text3 p {
+    line-height:50px;
+  }
+  
+  .text3 h3 {
+    padding-left:250px;
+  }
+  
+  
+  /*きなり*/
+  .name4 {
+    display:none;
+  }
+  
+  .img4 {
+    display:none;
+  }
+  
+  #img4 img {
+    width:500px;
+    margin-left:80px;
+  }
+  
+  .te4 {
+    display:none;
+  }
+  
+   cursor: pointer;
+  }
+  
+  /* ボタンにカーソルを当てたとき、ボタンを半透明にする */
+  button:hover {
+   opacity: 0.7;
+  }
+  
+  
+  
+  #name4{
+    margin: 16px 0;
+    font-size: 30px;
+    color: #2b3412;
+  }
+  
+  .kinari {
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:rgba(218, 232, 202,0.4);
+    margin-bottom:100px;
+  }
+  
+  .content4 {
+    display:flex;
+  }
+  
+  .content4 .img4 img{
+    width:500px;
+    margin-left:60px;
+    
+  }
+  
+  .text4 h3 {
+    padding-left:300px;
+  }
+  
+  .text4 p {
+    line-height:50px;
+    padding-right:25px;
+    padding-left:30px;
+  }
+  
+  /*あや*/
+  .name5 {
+    display:none;
+  }
+  
+  .img5 {
+    display:none;
+  }
+  
+  #img5 img {
+    width:500px;
+    margin-left:80px;
+  }
+  
+  .te5 {
+    display:none;
+  }
+  
+   cursor: pointer;
+  }
+  
+  /* ボタンにカーソルを当てたとき、ボタンを半透明にする */
+  button:hover {
+   opacity: 0.7;
+  }
+  
+  
+  
+  #name5{
+    margin: 16px 0;
+    font-size: 30px;
+    color: #2b3412;
+  }
+  .aya {
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:rgba(148, 161, 133,0.4);
+     margin-bottom:100px;
+  }
+  
+  .content5 {
+    display:flex;
+  }
+  
+  .content5 .img5 img{
+    width:500px;
+    margin-right:80px;
+  }
+  
+  
+  
+  .text5 {
+    padding-left:25px;
+    padding-right:20px;
+  }
+  
+  .text5 p {
+    line-height:50px;
+  }
+  
+  .text5 h3 {
+    padding-left:250px;
+  }
+  
+  .hr3 {
+    border-top: 4px solid #9F7756;
+    margin-bottom:20px;
+  }
+  
