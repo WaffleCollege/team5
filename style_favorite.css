@@ -1,21 +1,70 @@
 
-html{
+html{  
     scroll-behavior:smooth;
 }
 
-
-.intro {
-    text-align: center;
-    font-weight: bold;
+.site1{
+    font-size:15px;
+    color:#ede7e3;
+    text-decoration: none;
+    margin:5px;
+}
+.site2{
+    font-size:15px;
+    color:#ede7e3;
+    text-decoration: none;
+    margin:5px;
+}
+.site3{
+    font-size:15px;
+    color:#ede7e3;
+    text-decoration: none;
+    margin:5px;
+}
+.site4{
+    font-size:15px;
+    color:#ede7e3;
+    text-decoration: none;
+    margin:5px;
+}
+.site5{
+    font-size:15px;
+    color:#ede7e3;
+    text-decoration: none;
+    margin:5px;
 }
 
-.intro img {
-    text-align:center;
-    height:400px;
-    width:100%;
-    padding:0px 0px 0px 0px;
+
+.site1:hover{   
+    font-size:12px;
+    font-weight:bolder;
+}
+.site2:hover{
+    font-size:12px;
+    font-weight: bolder;
+}
+.site3:hover{
+    font-size:12px;
+    font-weight: bolder;
+}
+.site4:hover{
+    font-size:12px;
+    font-weight: bolder;
+}
+.site5:hover{
+    font-size:15px;
+    font-weight: bolder;
 }
 
+
+
+ul{
+    display:flex;
+    background-color: #2b3412;
+    text-decoration:none;
+    margin-bottom: 0%;
+
+   }
 
 h1{ 
     font-weight: bold;
@@ -26,9 +75,10 @@ h1{
 
     color:#ede7e3;
     position:absolute;
-    top:155px;
+    top:250px;
     left: 490px;
 }
+
 h1:after {
     position: absolute;
     bottom: 0;
@@ -50,13 +100,32 @@ h1:after {
  }
 
 
-li{ 
-    list-style:none;
+li{  list-style:none;
     font-weight: 700;
     padding:30px 20px 20px 40px;
+   
 }
 
-li a{text-decoration:none;
+a.Yoshino{text-decoration:none;
+    color:#ede7e3;  
+    padding:30px 20px 30px 130px;
+    font-weight: 550;
+}
+
+a.Tsutsumi{text-decoration:none;
+    color:#ede7e3;  
+    padding:30px 20px 30px 130px;
+    font-weight: 550;
+}
+
+a.Mana{text-decoration:none;
+    color:#ede7e3;  
+    padding:30px 20px 30px 130px;
+    font-weight: 550;
+}
+
+a.Kinari{
+    text-decoration:none;
     color:#ede7e3;  
     padding:30px 20px 30px 130px;
     font-weight: 550;
@@ -65,21 +134,25 @@ li a{text-decoration:none;
 a.Yoshino:hover{
     color:#2b3412;
     font-weight:900;
+
 }
+
 a.Tsutsumi:hover{
     color:#2b3412;
     font-weight:900;
 }
+
 a.Mana:hover{
     color:#2b3412;
     font-weight:900;
+
+
 }
+
 a.Kinari:hover{
     color:#2b3412;
     font-weight:900;
 }
-
-
 
 
 
@@ -108,15 +181,6 @@ p{
     font-size: 20px;
     display:flex;
 }
-
-img{
-    text-align:center;
-    height:400px;
-    width:100%;
-    padding:0px 0px 0px 0px;
-      
-  }
-
 
 .main{
     background-color:#EDE7E3;
@@ -168,3 +232,54 @@ img{
   .btn:hover {
     transform: scale(1.1);
   }
+
+
+
+/* スライドショー */
+.slide {
+    text-align: center;
+    height: 430px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.slideitem {
+    opacity: 0; /* 最初から画像を表示 */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 5%;
+    top: 0;
+    animation: anime 15s infinite linear;
+}
+
+.slideitem:nth-of-type(2) {
+    opacity: 0; 
+    animation-delay: 5s; 
+}
+.slideitem:nth-of-type(3) {
+    opacity: 0; 
+    animation-delay: 10s; 
+}
+@keyframes anime {
+    0%, 20% {
+        opacity: 0;
+    }
+    25%, 75% {
+        opacity: 1;
+    }
+    80%, 100% {
+        opacity: 0;
+    }
+}
+
+.slideitem {
+    left: 0; 
+    top: 0; 
+    animation: anime 15s infinite linear;
+}
+
+
