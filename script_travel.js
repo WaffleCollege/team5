@@ -11,7 +11,7 @@ document.querySelectorAll('h2 a').forEach(anchor => {
             "tsutsumi": "switzerland-flag.png",
             "mana": "switzerland-flag.png",
             "kinari": "french-flag.png",
-            "aya":"iceland.png",
+            "aya":"iceland-flag.png",
             // 他の行先に対する背景画像も追加
         };
 
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
      // 5番目の項目
     setTimeout(() => {
-        sections[3].style.transform = 'translateX(0)';
-        sections[3].style.opacity = 1;
-    }, 2000); // 2.0秒後に4番目の項目をスライドイン
+        sections[4].style.transform = 'translateX(0)';
+        sections[4].style.opacity = 1;
+    }, 2000); // 2.0秒後に5番目の項目をスライドイン
 });
