@@ -52,7 +52,7 @@ html{
     font-weight: bolder;
 }
 .site5:hover{
-    font-size:15px;
+    font-size:12px;
     font-weight: bolder;
 }
 
@@ -108,28 +108,36 @@ li{  list-style:none;
 
 a.Yoshino{text-decoration:none;
     color:#ede7e3;  
-    padding:30px 20px 30px 130px;
     font-weight: 550;
+    padding-left:100px;
 }
 
 a.Tsutsumi{text-decoration:none;
     color:#ede7e3;  
-    padding:30px 20px 30px 130px;
     font-weight: 550;
+    padding-left:120px;
 }
 
 a.Mana{text-decoration:none;
     color:#ede7e3;  
-    padding:30px 20px 30px 130px;
     font-weight: 550;
+    padding-left:120px;
 }
 
 a.Kinari{
     text-decoration:none;
     color:#ede7e3;  
-    padding:30px 20px 30px 130px;
     font-weight: 550;
+    padding-left:120px;
 }
+
+a.Aya{
+    text-decoration:none;
+    color:#ede7e3;  
+    font-weight: 550;
+    padding-left:120px;
+}
+
 
 a.Yoshino:hover{
     color:#2b3412;
@@ -154,6 +162,11 @@ a.Kinari:hover{
     font-weight:900;
 }
 
+
+a.Aya:hover{
+    color:#2b3412;
+    font-weight:900;
+}
 
 
 .main-text{
